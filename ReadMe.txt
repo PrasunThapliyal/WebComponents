@@ -19,5 +19,13 @@ ref: Intro to Web Components - Full Walkthrough
 
 (#) Create boilerplate HTML/JS
 (#) Create a basic component <game-board>, add it to HTML
+(#) Use shadowRoot to encapsulate (make inaccessible from outside) the component's content and style
+(#) Lifecycle methods: connectedCallback, disconnectedCallback, attributeChangedCallback
+        attributeChangedCallback is called before connectedCallback
+        so its important to check whether the DOM elements are loaded at that point or not before making any code references
 
-
+        Passing attributes is very limited because you can pass only strings
+            Using attributes you could pass numbers (etc) as strings and then parse them,
+            but there's a better alternative - Properties
+    Properties - since a DOM element is an object itself, you could define Properties
+    

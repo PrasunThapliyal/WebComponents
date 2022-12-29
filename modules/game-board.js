@@ -7,7 +7,17 @@ class GameBoard extends HTMLElement {
 
         shadowRoot.innerHTML = 
         `
-            <div style="width:300px; height:300px; border:1px solid">
+            <style>
+                #game-board-box {
+                    width: 300px;
+                    height: 300px;
+                    border: 5px solid;
+                    background-color: blue;
+                    transform: rotate(45deg);
+                }
+            </style>
+
+            <div id="game-board-box">
 
             </div>
         `;

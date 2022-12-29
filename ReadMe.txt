@@ -28,4 +28,5 @@ ref: Intro to Web Components - Full Walkthrough
             Using attributes you could pass numbers (etc) as strings and then parse them,
             but there's a better alternative - Properties
     Properties - since a DOM element is an object itself, you could define Properties
-    
+(#) Add some style
+

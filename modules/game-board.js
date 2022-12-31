@@ -25,18 +25,28 @@ class GameBoard extends HTMLElement {
             .base-grid > .red {
                 grid-area: red;
                 background-color: red;
+                display: flex;
+            }
+            .four-dot-container {
+                width: 60%;
+                height: 60%;
+                margin: auto;
+                background-color: white;
             }
             .base-grid > .green {
                 grid-area: green;
                 background-color: green;
+                display: flex;
             }
             .base-grid > .yellow {
                 grid-area: yellow;
                 background-color: yellow;
+                display: flex;
             }
             .base-grid > .blue {
                 grid-area: blue;
                 background-color: blue;
+                display: flex;
             }
             .base-grid > .step-top {
                 grid-area: step-top;
@@ -57,10 +67,18 @@ class GameBoard extends HTMLElement {
             </style>
                     
             <div class="base-grid">
-                <div class="red"></div>
-                <div class="green"></div>
-                <div class="yellow"></div>
-                <div class="blue"></div>
+                <div class="red">
+                    <div class="four-dot-container"></div>
+                </div>
+                <div class="green">
+                    <div class="four-dot-container"></div>
+                </div>
+                <div class="yellow">
+                    <div class="four-dot-container"></div>
+                </div>
+                <div class="blue">
+                    <div class="four-dot-container"></div>
+                </div>
                 <div class="step-top"></div>
                 <div class="step-left"></div>
                 <div class="step-right"></div>

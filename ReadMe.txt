@@ -29,4 +29,5 @@ ref: Intro to Web Components - Full Walkthrough
             but there's a better alternative - Properties
     Properties - since a DOM element is an object itself, you could define Properties
 (#) Add some style
-
+(#) Add a base grid - use CSS display:grid with grid-area
+        Gotcha: Grid areas must be contiguous
